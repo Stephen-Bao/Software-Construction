@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+apply plugin: 'jacoco'
+
+test.testLogging {
+  exceptionFormat "full"
+  events "failed", "passed", "skipped"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testCompile 'junit:junit:4.+'
+  compile 'junit:junit:4.12'
+}
+
+checkstyle {
+  ignoreFailures = true
+  toolVersion = "8.7"
+  config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+}
+

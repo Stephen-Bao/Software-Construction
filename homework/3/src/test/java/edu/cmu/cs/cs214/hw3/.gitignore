@@ -1,0 +1,4 @@
+# This is so-called instead of .gitkeep because
+# spotbugs will ignore .gitignore, but try to analyze .gitkeep.
+# This will lead to a Gradle error, since .gitkeep is not
+# a Java class. As a kludge, I'm renaming this file.

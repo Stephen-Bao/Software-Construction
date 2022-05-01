@@ -1,0 +1,3 @@
+The game can be started either by gradle run command or by running the Main class in edu.cmu.cs.cs214.hw4.gui.GameGUI.
+
+One player should enter the total player number in the starter window, then the main GUI will show up. A tile can be rotated by 90 degree clockwise by clicking on it either on the above tile panel or on the board. Each player has a default color to differentiate their meeples. Player is changed after a tile is placed. When there is no tile left in the deck, the game ends.

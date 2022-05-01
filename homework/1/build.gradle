@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'checkstyle'
+
+repositories {
+  mavenCentral()
+}
+
+checkstyle {
+  toolVersion = "8.7"
+  config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+}
+
