@@ -1,0 +1,10 @@
+{
+  "geoScope": "US",
+  "dimension": 2,
+  "dateformat": "yyyy-MM-dd",
+  "regionAndDate": {
+    "region": "state",
+    "date": "date"
+  },
+  "features": ["death", "deathIncrease", "hospitalizedCurrently", "inIcuCurrently", "negative", "negativeIncrease", "onVentilatorCurrently", "positive", "positiveCasesViral", "positiveIncrease", "recovered", "totalTestEncountersViral", "totalTestEncountersViralIncrease", "totalTestResults", "totalTestResultsIncrease", "totalTestsPeopleViral", "totalTestsPeopleViralIncrease"]
+}

@@ -1,0 +1,17 @@
+{
+  "geoScope": "US",
+  "dateFormat": "yyyy-MM-dd",
+  "XMLDataPointKey": "row",
+  "dataPointRegionKey": "state",
+  "dataPointDateKey": "date",
+  "whitelistRawFeatureKeys": [
+    "death",
+    "deathIncrease",
+    "hospitalizedCurrently",
+    "inIcuCurrently",
+    "negative",
+    "negativeIncrease",
+    "positive",
+    "recovered"
+  ]
+}

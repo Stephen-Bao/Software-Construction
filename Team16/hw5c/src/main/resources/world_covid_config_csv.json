@@ -1,0 +1,10 @@
+{
+  "geoScope": "GLOBAL",
+  "dimension": 2,
+  "dateformat": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
+  "fields": {
+    "region": "CountryCode",
+    "date": "Date",
+    "dailyConfirmed": "NewConfirmed"
+  }
+}

@@ -1,0 +1,4 @@
+rootProject.name = '17-214 Homework 5 Framework'
+
+include ':framework'
+project(':framework').projectDir = file('../Team33-public/framework')

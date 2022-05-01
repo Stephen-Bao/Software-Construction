@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'jacoco'
+    id 'application'
+}
+
+mainClassName = 'edu.cmu.cs.cs214.hw5.Main'
+
+repositories {
+    maven {
+        url "https://repo.osgeo.org/repository/release/"
+    }
+    jcenter()
+    mavenCentral()
+
+}
+
+dependencies {
+    compile project(':framework')
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile fileTree(dir: 'build', include: 'original_plugins.jar')
+    testImplementation group: 'junit', name: 'junit', version: '4.11'
+    testImplementation 'junit:junit:4.12'
+    implementation group: 'org.geotools', name: 'gt-shapefile', version: '25.0'
+    implementation group: 'org.geotools', name: 'gt-main', version: '25.0'
+    implementation group: 'org.geotools', name: 'gt-swing', version: '25.0'
+    implementation group: 'org.jxmapviewer', name: 'jxmapviewer2', version: '2.6'
+    implementation group: 'org.knowm.xchart', name: 'xchart', version: '3.8.0'
+    implementation group: 'org.json', name: 'json', version: '20210307'
+}

@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'nz.ac.waikato.cms.weka', name: 'weka-dev', version: '3.9.1'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.11'
+    testImplementation 'junit:junit:4.12'
+}
+
+jacoco {
+    toolVersion = "0.8.6"
+}

@@ -1,0 +1,10 @@
+{
+  "geoScope": "US",
+  "dimension": 2,
+  "dateformat": "yyyy-MM-dd",
+  "fields": {
+    "region": "state",
+    "date": "date",
+    "dailyConfirmed": "positiveIncrease"
+  }
+}
